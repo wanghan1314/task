@@ -1,0 +1,399 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	max-width: 768px;
+}
+
+
+.header{
+	height: 90px;
+	background:#5fc0cd;
+	line-height: 90px;
+	text-align: center;
+	position: relative;
+}
+.one{
+	width: 290px;
+	height: 70px;
+	font-size: 34px;
+	background:#55a8b3;
+	color:#FFFFFF;
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: 10px;
+    line-height: 70px;
+    	
+	
+}
+
+.header .two{
+	font-size: 34px;
+	background: #FFFFFF;
+	color:#5fc0cd;
+	border-radius: 8px;
+	width: 145px;
+	height: 70px;
+	display: inline-block;
+	float: right;
+}
+.header img	{
+	position: absolute;
+	top: 21px;
+	right: 30px;
+}
+
+.tou{
+	position: relative;
+	height: 80px;
+	font-size: 28px;
+	color: #999999;
+	border-bottom: 1px solid #e1e5e7;
+}
+.tou .sun{
+	line-height: 80px;
+	position: absolute;
+	left: 60px;
+}
+.tou .say{
+	position: absolute;	
+	left: 200px;
+	top: 38px;
+}
+.tou .son{
+	width: 1px;
+	height: 38px;
+	background: #e1e5e7;
+	position: absolute;
+	left: 230px;
+	top: 22px;
+}
+.tou .boy{
+	position: absolute;
+	line-height: 80px;
+	left: 320px;
+}
+.tou .bad{
+	position: absolute;
+	top: 38px;
+	left: 470px;
+}
+.tou .bed{
+	width: 1px;
+	height: 38px;
+	background: #e1e5e7;
+	position: absolute;
+	left: 500px;
+	top: 22px;
+}
+.tou .hair{
+	position: absolute;
+	line-height: 80px;
+	right: 80px;
+}
+.tou .her{
+	position: absolute;
+	top: 38px;
+	right: 20px;
+}
+.king{
+	border-bottom: 1px solid #e1e5e7;
+	height: 180px;
+	position: relative;
+}
+.ming{
+	height: 78px;
+
+}
+.ming img{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.zhang{
+	position: absolute;
+	font-size: 28px;
+	color:#999999;
+    line-height: 78px;
+    left: 63px;
+}
+.wang .wu{
+	position: absolute;
+	font-size: 28px;
+	color: black;
+	left: 63px;
+}
+.wang .hun{
+	position: absolute;
+	font-size: 32px;
+	color: red;
+    right: 74px;
+    margin-top: -4px;
+}
+.wang .hang{
+	position: absolute;
+	right: 30px;
+}
+.wang .lang{
+	position: absolute;
+	left: 30px;
+    bottom: 26px;
+}
+.wang .kang{
+	position: absolute;
+	font-size: 26px;
+	color: #999999;
+	left: 63px;
+	bottom:20px;
+}
+
+.su{
+	border-bottom: 1px solid #e1e5e7;
+	height: 180px;
+	position: relative;
+}
+.you{
+	height: 78px;
+
+}
+.you img{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.peng{
+	position: absolute;
+	font-size: 28px;
+	color:#999999;
+    line-height: 78px;
+    left: 63px;
+}
+.liu .shi{
+	position: absolute;
+	font-size: 28px;
+	color: black;
+	left: 63px;
+}
+.liu .qi{
+	position: absolute;
+	font-size: 32px;
+	color: red;
+    right: 74px;
+    margin-top: -4px;
+}
+.liu .shu{
+	position: absolute;
+	right: 30px;
+}
+.liu .qiong{
+	position: absolute;
+	left: 30px;
+    bottom: 26px;
+}
+.liu .fu{
+	position: absolute;
+	font-size: 26px;
+	color: #999999;
+	left: 63px;
+	bottom:20px;
+}
+.which{
+	border-bottom: 1px solid #e1e5e7;
+	height: 180px;
+	position: relative;
+}
+.would{
+	height: 78px;
+
+}
+.would img{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.will{
+	position: absolute;
+	font-size: 28px;
+	color:#999999;
+    line-height: 78px;
+    left: 63px;
+}
+.there .who{
+	position: absolute;
+	font-size: 28px;
+	color: black;
+	left: 63px;
+}
+.there .make{
+	position: absolute;
+	font-size: 32px;
+	color: red;
+    right: 74px;
+    margin-top: -4px;
+}
+.there .when{
+	position: absolute;
+	right: 30px;
+}
+.there .more{
+	position: absolute;
+	left: 30px;
+    bottom: 26px;
+}
+.there .man{
+	position: absolute;
+	font-size: 26px;
+	color: #999999;
+	left: 63px;
+	bottom:20px;
+}
+.about{
+	border-bottom: 1px solid #e1e5e7;
+	height: 180px;
+	position: relative;
+}
+.than{
+	height: 78px;
+
+}
+.than img{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.could{
+	position: absolute;
+	font-size: 28px;
+	color:#999999;
+    line-height: 78px;
+    left: 63px;
+}
+.state .only{
+	position: absolute;
+	font-size: 28px;
+	color: black;
+	left: 63px;
+}
+.state .some{
+	position: absolute;
+	font-size: 32px;
+	color: red;
+    right: 74px;
+    margin-top: -4px;
+}
+.state .come{
+	position: absolute;
+	right: 30px;
+}
+.state .know{
+	position: absolute;
+	left: 30px;
+    bottom: 26px;
+}
+.state .see{
+	position: absolute;
+	font-size: 26px;
+	color: #999999;
+	left: 63px;
+	bottom:20px;
+}
+.just{
+	border-bottom: 1px solid #e1e5e7;
+	height: 180px;
+	position: relative;
+}
+.because{
+	height: 78px;
+
+}
+.because img{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.good{
+	position: absolute;
+	font-size: 28px;
+	color:#999999;
+    line-height: 78px;
+    left: 63px;
+}
+.each .feel{
+	position: absolute;
+	font-size: 28px;
+	color: black;
+	left: 63px;
+}
+.each .seem{
+	position: absolute;
+	font-size: 32px;
+	color: red;
+    right: 74px;
+    margin-top: -4px;
+}
+.each .high{
+	position: absolute;
+	right: 30px;
+}
+.each .too{
+	position: absolute;
+	left: 30px;
+    bottom: 26px;
+}
+.each .place{
+	position: absolute;
+	font-size: 26px;
+	color: #999999;
+	left: 63px;
+	bottom:20px;
+}
+.shang{
+	position: relative;
+	height: 72px;
+}
+.shang .xin{
+	position: absolute;
+	left: 30px;
+	bottom:15px;
+}
+.shang .ping{
+	position: absolute;
+	font-size: 28px;
+	color:#999999;
+    bottom: 10px;
+    left: 63px;
+}
+.xue{
+	height: 100px;
+	background:#f8fafb;	
+	position: relative;
+}
+.zhi img{
+	position: absolute;
+	top: 10px;
+	left:150px;
+}
+.zhi .dop{
+	position: absolute;
+	font-size: 20px;
+	color:#5fc0cd;
+	left: 155px;
+	bottom: 14px;
+}
+.xue .qian{
+	position: absolute;
+	left: 350px;
+}
+.gas img{
+	position: absolute;
+    right: 120px;
+	top: 10px;
+}
+.gas .kop{
+	position: absolute;
+	font-size: 20px;
+	color:#b3b4b4;
+	right: 120px;
+	bottom: 10px;
+}

@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  margin: auto;
+  padding: auto;
+  background:#29bde0 ;
+}
+
+.header {
+	height: 80px;
+	background: #29bde0;
+	position: relative;
+}
+
+.header .zuo {
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+}
+
+.header .tou {
+	width: 100%;
+	position: absolute;
+	font-size: 34px;
+	color: white;
+	line-height: 80px;
+	text-align: center;
+}
+
+.header .cha {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+}
+
+.hand {
+	position: relative;
+	background: #b9e9f5;
+}
+
+.hand .fa {
+	display: inline-block;
+	font-size: 26px;
+	color: #6a7b7f;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 40PX;
+	letter-spacing: 5px;
+}
+
+.hand .bo {
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.hand .jian {
+	margin-bottom: -50px;
+	margin-left: -300px;
+}
+
+.quan {
+	background: #29bde0;
+	padding-bottom: 60px;
+}
+.quan .you{
+	width: 10px;
+	height: 680px;
+	background: #4aa1c8;
+	float: right;
+	margin-top: 50px;
+	margin-right: 6px;
+	border-radius: 15px;
+}
+.quan .you1{
+	background: white;
+	height:580px ;
+	border-radius: 15px;
+}
+
+.quan .dian {
+	font-size: 24px;
+	color: white;
+	padding-top: 20px;
+	padding-left: 55px;
+	padding-bottom: 45px;
+}
+
+.box{
+	width: 76vw;
+	margin: auto;
+}
+.work {
+	position: relative;
+	background: #f5c97b;
+	font-size: 30px;
+	border: 5px solid white;
+	float: left;
+	width: 20vw;
+	height: 20vw;
+	margin-right: 4vw;
+	margin-top: 10vw;
+}
+.work:hover .ball{
+	display: block;
+}
+.ball{
+	display:none;
+	position: absolute;
+	width: 100%;
+	
+}
+
+.start{
+	margin-left: 3vw;
+}
+.end{
+	margin-right: 0;
+}	
+.work .work1 {
+	height: 15vw;
+	line-height: 15vw;
+	text-align: center;
+	
+}
+
+.work .work2 {
+	background: #83b09a;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	height: 5vw;
+	line-height: 5vw;
+}
+.clear {
+	clear: both;
+}
+.gon{
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	bottom: 0;
+	background:#29BDE0 ;
+}
+
+.gong{
+	background:#fbb435;
+	font-size: 40px;
+	color: white;
+	width: 60%;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+   	position: absolute;
+   	left: 50%;
+   	transform: translateX(-50%);	
+}

@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#fafafa;
+}
+.header{
+	background: white;
+	font-size: 14px;
+	color:#29b078;
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+.header img{
+	float: right;
+}
+.green{
+	background:#29b078;
+}
+.art{
+	margin: 22px 0px 22px 0px;
+}
+.art .art1{
+	font-size: 36px;
+	color: white;
+}
+.art .art2{
+	font-size: 9px;
+	color: white;
+	margin-top: -5px;
+}
+.right{
+	margin-top: -60px;
+	font-size: 16px;
+	color: white;
+	margin-right: -25px;
+}
+.right span{
+	color: white;
+}
+.right a{
+	text-decoration: none;
+}
+.right span:hover{
+	border-bottom: 3px solid white;
+}
+.right .about{
+	padding-left: 25px;
+	padding-right:25px;
+	padding-bottom:37px;
+}
+.orange img{
+	width: 100%;
+}
+.box{
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.box .box2{
+	color:#29b078;
+}
+.potato1 .small{
+	display: inline-block;
+	background: white;
+}
+.small .top{
+	font-size: 16px;
+	line-height: 60px;
+	font-weight: bold;
+	border-bottom: 1px solid #e6e6e6;
+}
+.small .bottom{
+	font-size: 14px;
+	color:#29b078;
+	list-style: none;
+}
+.bottom .bottom1{
+	margin-top:20px;
+}
+.bottom li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	background: url(../IMG/hollow.png)no-repeat;
+	background-position: 90px;
+	padding-left: 105px;
+	
+}
+.bottom li:hover{
+	color:#ff650e;
+	background: url(../IMG/sincere.png)no-repeat;
+	background-position: 90px;
+}
+.big1{
+	background: white;
+	border: 1px solid #ededed;
+	font-size:14px;
+	color:#999999;
+}
+.red1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.big-1{
+	height: 150px;
+	border-bottom:1px solid #ededed;
+}
+.text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-indent: 28px;
+}
+.base{
+	background:#26a26f;
+	font-size: 16px;
+	color: white;
+}
+.box1{
+	padding-top: 20px;
+}
+.boot{
+	padding-top: 20px;
+}
+.box2 img{
+	padding-right: 15px;
+}
+.our{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.box4 .you{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
