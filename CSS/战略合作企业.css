@@ -112,25 +112,71 @@ body{
 	padding-bottom: 20px;
 	text-indent: 28px;
 }
-.base{
+.foot{
 	background:#26a26f;
+}
+.our .foot1{
 	font-size: 16px;
 	color: white;
+	padding-top: 37px;
 }
-.box1{
-	padding-top: 20px;
+.you{
+	margin-right:170px;
 }
-.boot{
-	padding-top: 20px;
+
+.highly span{
+	margin-left: -163px;
+	color: #999999;
+	font-size: 16px;
 }
-.box2 img{
-	padding-right: 15px;
+.web{
+	margin-left: 610px;
 }
-.our{
-	padding-top: 20px;
-	padding-bottom: 20px;
+
+.foot2{
+	padding-left: 327px;
+	margin-top: 30px;
+	margin-bottom:30px;
 }
-.box4 .you{
+.foot2 span{
 	font-size: 14px;
-	padding-bottom: 20px;
+	color: white;
+}
+.foot2 .grass{
+	border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-right: 50px;
+}
+.foot3 span{
+	font-size: 14px;
+	color: white;
+}
+.foot3 .about{
+	margin-right: 132px;
+}
+.foot3 .game{
+	margin-right: 50px;
+}
+.foot3 img{
+	float: right;
+	margin-top: -80px;
+	padding-right:40px;
+	margin-bottom: 20px;
+}
+.foot4{
+	font-size: 12px;
+	color: white;
+	margin:20px 0px 20px ;
+	text-align: center;
+}
+@media (max-width:768px) {
+.foot3 img{
+	padding-right: 5px;
+}
+.foot4{
+	width: 100%;
+}
+.web{
+	margin-left: 200px;
+}
 }

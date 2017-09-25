@@ -101,17 +101,17 @@ body{
 	margin-top: -15px;
 	line-height: 25px;
 }
-.mate5{
-	padding-top: 90px;
+.mate{
+	margin-bottom: 90px;
 }
 .teacher1 .tree{
 	margin-bottom: 35px;
 }
 .shy{
-	width: 22%;
-	height: 367px;
 	border: 1px solid #C9C9C9;
-	margin-right: 4%;
+	margin-left: 15px;
+	margin-right:21px;
+	width: 22%;
 }
 .shy1{
 	margin-right: 0;
@@ -169,12 +169,16 @@ body{
 .you{
 	margin-right:170px;
 }
-.website{
-	margin-right:590px
+
+.highly span{
+	margin-left: -163px;
+	color: #999999;
+	font-size: 16px;
 }
-.feet1{
-	padding:60px 0px 60px 0px;
+.web{
+	margin-left: 590px;
 }
+
 .foot2{
 	padding-left: 327px;
 	margin-top: 30px;
@@ -202,11 +206,49 @@ body{
 .foot3 img{
 	float: right;
 	margin-top: -80px;
-	margin-right:59px;
+	padding-right:60px;
 	margin-bottom: 20px;
 }
 .foot4{
 	font-size: 12px;
 	color: white;
-	margin:20px 0px 20px 327px;
+	margin:20px 0px 20px ;
+	text-align: center;
+}
+.connection span{
+	margin-left: -190px;
+	color: #999999;
+	font-size: 16px;
+}
+@media (max-width:768px ) {
+	.connection p {
+    text-align: center;
+}
+.people {
+    padding-left: 0;
+    text-align: center;
+}
+.shy{
+    width: 100%;
+    margin-top: 20px;
+}
+.work{
+	width: 50%;
+	margin: auto;
+}
+.mate{
+	width: 100%;
+}
+.mate2{
+	padding-left: 210px;
+}
+.foot3 img{
+	margin-right:-53px;
+}
+.foot4{
+	width: 100%;
+}
+.web{
+	margin-left: 200px;
+}
 }
