@@ -23,12 +23,16 @@
 			</div>
 			<div class="list">
 				<div class="list1 container">
-					<div class="list2 pull-right">
-						<span class="listing">首页</span>
-						<span class="listing">在线定制</span>
-						<span class="listing">标准箱</span>
-						<span class="listing">品质保障</span>
+					<div class="row">
+						<div class="list2 pull-right">
+							<span class="listing">首页</span>
+							<span class="listing">在线定制</span>
+							<span class="listing">标准箱</span>
+							<span class="listing">品质保障</span>
+						</div>
+
 					</div>
+
 				</div>
 			</div>
 			<div class="chart container">
@@ -48,86 +52,99 @@
 					<img src="../IMG/box.png" />
 					<span>选择箱型</span>
 				</div>
-				<div class="aircraft">
-					<input type="radio" name="" id="" value="" class="case" />对口箱
-					<input type="radio" name="" id="" value="" class="case" />飞机盒
-					<input type="radio" name="" id="" value="" class="case" />天王盖
-					<select name="" class="pulldown">
-						<option value="">查看详情</option>
-					</select>
+				<div class="aircraft row">
+					<label class="col-xs-2 col-sm-2"><input type="radio" name="name" id="" value="" class="case" />对口箱</label>
+					<label class="col-xs-2 col-sm-2 "><input type="radio" name="name" id="" value="" class="case" />飞机盒</label>
+					<label class="col-xs-2 col-sm-2 "><input type="radio" name="name" id="" value="" class="case" />天王盖</label>
+					<select name="" class="pulldown sumbi">
+								<option value="">查看详情</option>
+							</select>
 				</div>
 				<div class="size">
 					<img src="../IMG/Ruler.png" />
 					<span>确定尺寸</span>
 				</div>
-				<div class="size1">
-					<div class="external">
-						<label class="pull-left"><input type="radio" name="" id="" value="" class="external1"/>外径</label>
-						<form>长 <input type="text" name="" id="" value="" style="width:75px;" class="box" />mm</form>
-						<form>宽 <input type="text" name="" id="" value="" style="width:75px;" class="box" />mm</form>
-						<form>高 <input type="text" name="" id="" value="" style="width:75px;" class="box" />mm</form>
+				<div class="size1 row">
+					<div class="">
+						<div class="col-xs-2 col-sm-2 text-center">外径</div>
+						<form class="col-xs-2 col-sm-2 text-right">长 <input type="text" name="" id="" value="" style="width:30%;" class="box" />mm</form>
+						<form class="col-xs-2 col-sm-2 text-right">宽 <input type="text" name="" id="" value="" style="width:30%;" class="box" />mm</form>
+						<form class="col-xs-2 col-sm-2 text-right">高 <input type="text" name="" id="" value="" style="width:30%;" class="box" />mm</form>
 					</div>
-					<select name="" class="pulldown pulltop">
+					<div class="col-xs-12" style="text-align: end;">
+					<select name="" class="pulldown">
 						<option value="">查看详情</option>
 					</select>
-					<div class="external">
-						<label class="pull-left"><input type="radio" name="" id="" value="" class="external1 "/>内径</label>
-						<form>长 <input type="text" name="" id="" value="" style="width:75px;" class="box" />mm</form>
-						<form>宽 <input type="text" name="" id="" value="" style="width:75px;" class="box" />mm</form>
-						<form>高 <input type="text" name="" id="" value="" style="width:75px;" class="box" />mm</form>
+					</div>
+					<div class="">
+						<div class="col-xs-2 col-sm-2 text-center">內径</div>
+						<form class="col-xs-2 col-sm-2 text-right">长 <input type="text" name="" id="" value="" style="width:30%;" class="box" />mm</form>
+						<form class="col-xs-2 col-sm-2 text-right">宽 <input type="text" name="" id="" value="" style="width:30%;" class="box" />mm</form>
+						<form class="col-xs-2 col-sm-2 text-right">高 <input type="text" name="" id="" value="" style="width:30%;" class="box" />mm</form>
 					</div>
 				</div>
 				<div class="size">
-					<img src="../IMG/cut.png"/>
+					<img src="../IMG/cut.png" />
 					<span>选择材质</span>
 				</div>
 				<div class="aircraft aircraft1">
-					<input type="radio" name="" id="" value="" class="case" />三层A瓦优质
-					<input type="radio" name="" id="" value="" class="case" />三层A瓦优质
-					<input type="radio" name="" id="" value="" class="case" />三层A瓦优质
-					<input type="radio" name="" id="" value="" class="case" />三层A瓦优质
-					<input type="radio" name="" id="" value="" class="case" />三层A瓦优质
-					<select name="" class="pulldown pullright">
-					<option value="">查看详情</option>
-					</select>
+					<div class="row">
+						<div class="container">
+							<label class="col-xs-2 col-sm-2"><input type="radio" name="name2" class="case case1"/>三层A瓦优质</label>
+							<label class="col-xs-2 col-sm-2"><input type="radio" name="name2" class="case case1"/>三层A瓦优质</label>
+							<label class="col-xs-2 col-sm-2"><input type="radio" name="name2" class="case case1"/>三层A瓦优质</label>
+							<label class="col-xs-2 col-sm-2"><input type="radio" name="name2" class="case case1"/>三层A瓦优质</label>
+							<label class="col-xs-2 col-sm-2"><input type="radio" name="name2" class="case case1"/>三层A瓦优质</label>
+							<select name="" class="pulldown">
+								<option value="">查看详情</option>
+							</select>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="nextstep">
 				<div class="nextstep1 container">
-					<input type="submit" name="" id="" value="下一步" style="width:180px;height:50px;color:white;background:#e15053;border-radius:7px;"/>
+					<input type="submit" name="" id="" value="下一步" style="width:180px;height:50px;color:white;background:#e15053;border-radius:7px;" />
 				</div>
 			</div>
 			<div class="foot">
-				<div class="foot1 container">
-					<div class="garden col-lg-4">
-						<span>51包装网一 纸箱包装首选服务平台</span>
-					</div>
-					<div class="about col-lg-4">
-						<span>关于我们</span>
-						<span>配送流程</span>
-						<span>联系我们</span>
-						<div class="media">
-							<span>下单指南</span>
-							<span>媒体介绍</span>
+				<div class="row">
+					<div class="foot1 container">
+						<div class="garden col-lg-4 col-sm-4 col-xs-3">
+							<span>51包装网一 纸箱包装首选服务平台</span>
 						</div>
-					</div>
-					<div class="qrcode pull-right">
-						<div class="text pull-left">
-							<p>TEL ：400-0000-000</p>
-							<p>企业QQ : 123456789</p>
-							<p>微信号 ：XXXXXXX</p>
+						<div class="about col-lg-4 col-sm-4 col-xs-3">
+							<span>关于我们</span>
+							<span>配送流程</span>
+							<span>联系我们</span>
+							<div class="media">
+								<span>下单指南</span>
+								<span>媒体介绍</span>
+							</div>
 						</div>
-						<div class="qrcode1 pull-right">
-							<img src="../IMG/dingzhi.png"/>
+						<div class="qrcode pull-right">
+							<div class="text pull-left">
+								<p>TEL ：400-0000-000</p>
+								<p>企业QQ : 123456789</p>
+								<p>微信号 ：XXXXXXX</p>
+							</div>
+							<div class="qrcode1 pull-right">
+								<img src="../IMG/dingzhi.png" />
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="bottom">
-				<div class="pack">
-					北京五一包装科技有限公司Copyright ©2015&#12288 51baozhuang.com015&#12288 All rights reserved.&#12288京icp备99999999-1
+				<div class="row">
+					<div class="container">
+						<div class="pack col-lg-12 col-sm-12">
+							北京五一包装科技有限公司Copyright ©2015&#12288 51baozhuang.com015&#12288 All rights reserved.&#12288京icp备99999999-1
+						</div>
+					</div>
 				</div>
-			</div>	
+			</div>
+
 		</div>
 	</body>
 
