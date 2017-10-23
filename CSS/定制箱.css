@@ -76,6 +76,7 @@
 	line-height: 90px;
 	background:#fbfcff;
 	font-size:18px;
+	
 }
 .row{
 	margin-left: 0;
@@ -87,9 +88,15 @@
 }
 .aircraft label{
 	cursor:pointer;
-	text-align: end;
-	
+	text-align: center;
+	font-weight: 500;
+	/*padding-left: 68px;*/
 }
+.aircraft1 label{
+	text-align: end;
+}
+
+
 .aircraft .case{
 	cursor:pointer;
 	margin-right:5px;
@@ -107,10 +114,10 @@
 	width: 110px;
 	height: 38px;
 	margin-top: 26px;
-	margin-left: 49px;
+	margin-left: 68px;
 }
 .sumbi{
-	margin-left: 445px;
+	margin-left: 41.6%;
 }
 @media only screen and (max-width: 768px) {
 .pulldown{
@@ -119,6 +126,12 @@
 }
 .sumbi{
 	margin-left: 0;
+}
+.size3 label{
+	margin-left: 10px;
+}
+.aircraft1 .label2{
+	margin-left: -21px;
 }
 }
 @media only screen and (max-width: 1200px) {
@@ -129,6 +142,12 @@
 .sumbi{
 	margin-left: 332px;
 }
+.size1 .label1{
+	margin-left: 20px;
+}
+.aircraft1 .label2{
+	margin-left: -38px;
+}
 }
 @media only screen and (max-width: 990px) {
 .pulldown{
@@ -138,12 +157,21 @@
 .sumbi{
 	margin-left: 243px;
 }
+.size3 label{
+	margin-left: 22px;
+}
+.aircraft1 label{
+	margin-left: 10px;
+}
 }
 .size{
 	line-height:45px;
 	font-size:18px;
 	background:#f3f3f3;
 	color:#1d7ad9;
+}
+.size2 label{
+	margin-left: -10px;
 }
 .size img{
 	margin-left:15px;
@@ -155,14 +183,14 @@
 	padding-top:30px;
 	padding-bottom:50px;
 }
+.aircraft1 .label2{
+	margin-left: -18px;
+}
 .pulltop{
 	margin-left:90%;
 }
-.size1 .external1{
-	margin-right:15px;
-}
-.external label{
-	padding-left: 70px;
+.size3 label{
+	margin-left: -17px;
 }
 form{
 	float: left;
@@ -185,11 +213,20 @@ form{
 	color:#c0c0c0;
 }
 .foot1{
-	padding-top:60px;
 	padding-bottom:50px;
 }
 .foot1 .garden{
 	font-size: 18px;
+	padding-top: 60px;
+}
+.foot1 .about{
+	padding-top:63px;
+}
+.foot1 .qrcode{
+	padding-top:63px;
+}
+.qrcode .qrcode1{
+	margin-top:-5px;
 }
 .about span{
 	display: inline-block;
