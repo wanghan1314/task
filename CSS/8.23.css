@@ -2,9 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	
-}
 .header{
 	background:#29bde0;
 	border-bottom: 5px solid #74d4eb;
@@ -16,12 +13,12 @@ body{
 }
 .header .house{
 	position: absolute;
-	padding: 20px 0px 20px 20px;
+	padding:20px 0px 20px 20px;
 }
 .header .gameover{
 	font-size: 34px;
 	color: white;
-	text-align: center;
+	text-align:center;
 	padding: 20px 0px 20px 20px;
 }
 .header .exclamation{
@@ -44,32 +41,28 @@ body{
     margin-right: auto;
     z-index: 1;
 }
-.cup img{
-    text-align: center;
-    
-}
 .win{
 	width: 100%;
 	font-size: 47px;
 	color: white;
 	position: absolute;
-	top: 63%;
-	left: 0;
+	top:63%;
+	left:0;
 }
 .describe{
-	/*max-*/width: 500px;
+	width:500px;
 	font-size: 33px;
 	color:#ffc865;
 	margin: auto;
 	margin-top: 20px;
 }
 .person{
-	/*max-*/width: 500px;
+	width: 500px;
 	margin: auto;
 	font-size: 26px;
 	color: white;
 	margin-top: 60px;
-	padding-bottom: 40px;
+	padding-bottom:40px;
 }
 .time{
 	margin-bottom: 10px;
@@ -83,6 +76,9 @@ body{
 	display: inline-block;
 	margin-right: 40px;
 }
+.person4{
+	margin-right:40px;
+}
 .love{
 	margin-bottom: 10px;
 }
@@ -92,7 +88,7 @@ body{
 	border-bottom: 5px solid #dddddd;
 }
 .blank .blank-inner{
-	/*max-*/width: 500px;
+	width: 500px;
 	margin: auto;
 	margin-top: 20px;
 }
@@ -121,7 +117,7 @@ body{
 	
 }
 .blank1{
-	/*max-*/width: 500px;
+	width: 500px;
 	margin: auto;
 	margin-top: 20px;
 }
@@ -129,7 +125,7 @@ body{
 	margin-top: 20px;
 }
 .blank1 .people{
-	/*max-*/width: 500px;
+	width: 500px;
 	margin: auto;
     font-size: 26px;
 	color:#a6a6a6;
@@ -140,7 +136,7 @@ body{
 	border-top: 5px solid #dddddd;
 }
 .innate1{
-	/*max-*/width: 580px;
+	width: 580px;
 	margin: auto;
 	font-size: 40px;
 	color:#29bde0;
@@ -157,7 +153,7 @@ body{
 	right: 0;
 }
 .foot1{
-	/*max-*/width: 580px;
+	width: 580px;
 	margin: auto;
 	font-size: 40px;
 	color:white;
