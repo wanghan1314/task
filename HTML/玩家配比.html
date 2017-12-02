@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>玩家配比</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.all {
+				width: 768px;
+				height: 894px;
+				margin: auto;
+				padding: auto;
+				background: #f0f0f0;
+			}
+			
+			.header {
+				height: 80px;
+				background: #29bde0;
+				position: relative;
+				
+			}
+			
+			.header img {
+				position: absolute;
+				top: 25px;
+				left: 23px;
+				cursor: pointer;
+			}
+			
+			.player {
+				width: 730px;
+				line-height: 60px;
+				background: white;
+				font-size: 30px;
+				text-align: center;
+				margin-left: 20px;
+				margin-top: 20px;
+				box-shadow: 2px 2px #888888;
+			}
+			
+			.allot {
+				background: white;
+				width: 730px;
+				margin-left: 20px;
+				margin-top: 10px;
+				height: 300px;
+				box-shadow: 2px 2px #888888;
+				font-size:18px;
+			}
+			
+			.allot1{
+				display:inline-block;
+				padding-top:25px;
+				padding-left:63px;
+				padding-right:276px;
+			}
+			
+			.gap {
+				background: white;
+				width: 730px;
+				height: 130px;
+				margin-left: 20px;
+				margin-top: 15px;
+				box-shadow: 2px 2px #888888;
+			}
+			
+			.amount .quantity {
+				padding-top: 20px;
+				margin-left: 60px;
+			}
+			
+			.quantity .number {
+				font-size: 15px;
+				font-weight: bold;
+				margin-right: 7px;
+			}
+			
+			.quantity input {
+				width: 42px;
+				height: 30px;
+				color: orange;
+				font-weight: bold;
+				background: #f0f0f0;
+				border: none;
+				outline: none;
+			}
+			
+			.quantity .figure {
+				color: orange;
+				font-size: 12px;
+				margin-left: 7px;
+			}
+			
+			.deal input {
+				background: orange;
+				width: 730px;
+				margin-left: 20px;
+				height: 80px;
+				margin-top: 20px;
+				border: none;
+				outline: none;
+				font-size: 35px;
+				color: white;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="all">
+			<div class="header">
+				<img src="../IMG/arrow.png" class="img"/>
+			</div>
+			<div class="player">
+				玩家配比
+			</div>
+			<div class="allot">
+				<span class="allot1">
+					杀手：<span class="killer"> </span>人
+				</span>
+				平民：<span class="people"> </span>人
+			</div>
+			<div class="gap"></div>
+			<div class="gap amount">
+				<div class="quantity">
+					<span class="number">请输入玩家数量</span>
+					<input type="number" name="" id="digit" value="" />
+					<span class="figure">玩家数量为4-18</span>
+				</div>
+			</div>
+			<div class="deal">
+				<input type="button" name="" id="deal" value="去 发 牌" />
+			</div>
+		</div>
+		<script type="text/javascript">
+			document.getElementsByClassName("img")[0].onclick=function(){
+				window.location.href = "桌游精灵.html"
+			}
+			document.getElementById("deal").onclick=function(){
+				window.location.href="查看身份.html"
+			}
+			var killer=document.getElementsByClassName("killer");
+			var people=document.getElementsByClassName("people");
+			var digit=document.getElementById("digit"); 
+			
+			digit.onchange=function(){
+				var sum=digit.value;
+				if(sum<4){
+					killer[0].innerHTML='';
+					people[0].innerHTML='';
+					alert("请输入正确的玩家人数");
+					
+				}else if(sum>18){
+					killer[0].innerHTML='';
+					people[0].innerHTML='';
+					alert("请输入正确的玩家人数")
+				}else if(sum>=4 && sum<=9){
+					killer[0].innerHTML=2;
+					people[0].innerHTML=sum-killer[0].innerHTML;
+				}else if(sum>=10 && sum<=14){
+					killer[0].innerHTML=3;
+					people[0].innerHTML=sum-killer[0].innerHTML;
+				}else if(sum>=15 && sum<=18){
+					killer[0].innerHTML=4;
+					people[0].innerHTML=sum-killer[0].innerHTML;
+				}
+			}
+		</script>
+	</body>
+
+</html>

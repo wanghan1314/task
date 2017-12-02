@@ -4,6 +4,8 @@
 }
 body{
 	max-width: 768px;
+	margin: auto;
+	padding: auto;
 }
 .say{
 	position: relative;
@@ -12,8 +14,8 @@ body{
 }
 .say img{
 	position: absolute;
-	top: 30px;
-	left: 23px;
+	top:30px;
+	left:23px;
 }
 .sun{
 	background:#f0f0f0;
@@ -22,9 +24,9 @@ body{
 
 }
 .love{
-	width: 680px;
-	height: 120px;
-	background: white;
+	width:680px;
+	height:120px;
+	background: white;	
 	font-size: 35px;
 	color:#9a9a9a;
 	line-height: 120px;
@@ -62,6 +64,7 @@ body{
 	margin-left: 90px;
 	line-height: 90px;
 	text-align: center;
+	cursor:pointer;
 }
 .long2{
 	height: 60px;

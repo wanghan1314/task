@@ -17,14 +17,14 @@
 }
 .header .gameover{
 	font-size: 34px;
-	color: white;
+	color:white;
 	text-align:center;
 	padding: 20px 0px 20px 20px;
 }
 .header .exclamation{
-	position: absolute;
-	right: 20px;
-	top: 20px;
+	position:absolute;
+	right:20px;
+	top:20px;
 }
 .content{
 	background: #29bde0;
@@ -143,7 +143,7 @@
 	padding-top: 20px;
 }
 .seven{
-	float: right;
+	float:right;
 }
 .foot{
 	background: rgba(41,189,224,0.5);
