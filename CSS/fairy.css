@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.say{
+	width: 100 vw;
+	height: 11.6vw;
+	background:#29bde0;
+}
+.say img{
+	width: 10vw;
+	height: 8vw;
+	padding-top:3.1vw;
+	padding-left:3.4vw;
+}
+.sun{
+	padding-top:4.2vw;
+	background:#f0f0f0;
+}
+.love{
+	width:88.8vw;
+	height:18.1vw;
+	background: white;	
+	font-size:5.2vw;
+	color:#9a9a9a;
+	text-align: center;
+	border: 1px solid #c9c9c9;
+	margin-left:5.6vw;
+	position: relative;
+}
+.love .xin{
+	padding-top:6.6vw;
+}
+.love img{
+	position:absolute;
+	top:8vw;
+	left:83vw;
+}
+.foot{
+	width:88.6vw;
+	background:#F3f3f3;
+	border: 1px solid #c9c9c9;
+	margin-top:4.2vw;
+	margin-left:5.6vw;
+	position: relative;
+	padding-bottom: 8vw;
+	margin-bottom: 9vw;
+}
+.foot .feet{
+	font-size:5.5vw;
+	color:#fbb435;
+	height:14.01vw;
+	padding-top:4.7vw;
+    border-bottom: 2px solid #fde1ae;
+	text-align: center;
+}
+.difficulty{
+	width:72vw;
+	height:21vw;
+	background:#69d1e9;
+	font-size:5vw;
+	color: white;
+	text-align: center;
+	line-height: 21vw;
+	margin-top:4.8vw;
+	margin-left:8.4vw;
+}
+.number{
+	font-size:4vw;
+	margin-top:4.8vw;
+	margin-left:18vw;
+}
+.foot img{
+	width: 4.3vw;
+	height: 8.5vw;
+	position: absolute;
+	top:62vw;
+	left:82vw;
+	
+}
+.slide .carousel-indicators .active{
+	background: red;
+}
+.carousel-indicators{
+	bottom: 8vw!important;
+}
+
