@@ -64,7 +64,8 @@ html, body{
     z-index: 2;
 }
 #entry{
-    /*linear-gradient(to right,#fd9f2a,rgba(253, 159, 42, 0.74),#fd9f2a);*/
+    /*l
+    inear-gradient(to right,#fd9f2a,rgba(253, 159, 42, 0.74),#fd9f2a);*/
     width: 60%;
     height:30px;
     border: none;
