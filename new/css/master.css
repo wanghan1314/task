@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    width:100vw;
+    height:12.08vw;
+    background:#5fc0cd;
+    font-size:4.44vw;
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+}
+.header .center{
+    background:#55a8b3;
+    display: inline-block;
+    width:39.44vw;
+    line-height:9.72vw;
+    border-radius:10px;
+    margin-left:30.14vw;
+    margin-top:1.2vw;
+    text-align: center;
+    color:white;
+    position: relative;
+}
+.header .care{
+    background:white;
+    display: inline-block;
+    width:19.72vw;
+    height:9.72vw;
+    border-radius:10px;
+    float: right;
+    color:#5fc0cd;
+}
+.header img{
+    width:6.39vw;
+    height:6.39vw;
+    position: absolute;
+    right:4.17vw;
+    bottom:3.06vw;
+}
