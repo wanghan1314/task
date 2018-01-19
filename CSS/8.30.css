@@ -21,8 +21,8 @@ body{
 	height:60px;
 }
 .style{
-	float: right;
-	margin-right: -25px;
+	float: right;margin-right: -25px;
+
 	line-height: 60px;
 	color: #FFFFFF;
 }
