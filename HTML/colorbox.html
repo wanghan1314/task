@@ -81,7 +81,7 @@
 				while(sum3==sum2||sum3==sum1){
 					sum3=Math.floor(Math.random()*9);
 				}
-				a.push(sum1,sum2,sum3);
+				a.push(sum1,sum2 ,sum3);
 				return a
 			}
 			var times;
@@ -94,7 +94,7 @@
 				btn1.className='change';
 			};
 			btn2.onclick=function(){
-				btn2.className='change';
+				btn2.className=' ';
 				btn1.className='';
 				clearInterval(times);
 				setTimeout(function(){
