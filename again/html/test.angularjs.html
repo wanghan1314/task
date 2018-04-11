@@ -5,12 +5,43 @@
     <title>Title</title>
     <script src="https://cdn.bootcss.com/angular.js/1.6.9/angular.min.js"></script>
 </head>
-<body ng-app="">
-<ul ng-init="users=[{name：'王寒'，age：18},{name：'cat',age:18}]">
-    <li ng-repeat="user in users">
-        姓名：{{user.name}}年龄：{{user.age}}
-    </li>
-</ul>
+<body ng-app="loginModule">
+    <!--<div>用户名：<input type="text" name="uname" id="uname"></div>-->
+    <!--<div><span id="info"></span></div>-->
+    <!--<script type="text/javascript">-->
+        <!--var uname=document.getElementById('uname');-->
+        <!--var info=document.getElementById('info');-->
+        <!--uname.onkeyup=function () {-->
+            <!--info.innerHTML=uname.value;-->
+        <!--}-->
+
+    <!--</script>-->
+
+    <div ng-controller="UserController">
+        <div>用户名：<input type="text" ng-model="name" placeholder="用户名"></div>
+        <br>
+        <div>密码：<input type="password" ng-model="pass" placeholder="密码"></;>
+        <br>
+        <button ng-click="submit()">登录</button>
+    </div>
+    <script type="text/javascript">
+        var loginModule =angular.module('loginModule',[]);
+        loginModule.controller('UserController',function ($scope,$log) {
+            $scope.name ='login';
+            $scope.pass ='admin';
+            $scope.submit=function(){
+                alert('登录模块');
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
      <!--<input type="text" ng-model="a" >*<input type="text" ng-8+9model="b">-->
      <!--=<span>{{a*b}}</span>-->
 
