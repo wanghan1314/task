@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4dae2553-412d-4976-8020-f2d9566de49c" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/again/css/squares.css" afterPath="$PROJECT_DIR$/again/css/squares.css" />
-      <change beforePath="$PROJECT_DIR$/again/html/squares.html" afterPath="$PROJECT_DIR$/again/html/squares.html" />
-      <change beforePath="$PROJECT_DIR$/again/html/test.html" afterPath="$PROJECT_DIR$/again/html/test.if.html" />
-      <change beforePath="$PROJECT_DIR$/again/js/squares.js" afterPath="$PROJECT_DIR$/again/js/squares.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -308,7 +304,7 @@
       <workItem from="1523063734112" duration="12515000" />
       <workItem from="1523236948297" duration="12110000" />
       <workItem from="1523322124648" duration="11579000" />
-      <workItem from="1523412301135" duration="19382000" />
+      <workItem from="1523412301135" duration="19436000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1514971596169</created>
@@ -394,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523437483578</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="11">
+      <created>1523437949715</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523437949715</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="902182000" />
+    <option name="totallyTimeSpent" value="902236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
