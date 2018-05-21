@@ -3,37 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="https://cdn.bootcss.com/angular.js/1.6.9/angular.min.js"></script>
+    <!--<script src="https://cdn.bootcss.com/angular.js/1.6.9/angular.min.js"></script>-->
 </head>
-<body ng-app="loginModule">
-    <!--<div>用户名：<input type="text" name="uname" id="uname"></div>-->
-    <!--<div><span id="info"></span></div>-->
-    <!--<script type="text/javascript">-->
-        <!--var uname=document.getElementById('uname');-->
-        <!--var info=document.getElementById('info');-->
-        <!--uname.onkeyup=function () {-->
-            <!--info.innerHTML=uname.value;-->
-        <!--}-->
+<body>
 
-    <!--</script>-->
-
-    <div ng-controller="UserController">
-        <div>用户名：<input type="text" ng-model="name" placeholder="用户名"></div>
-        <br>
-        <div>密码：<input type="password" ng-model="pass" placeholder="密码"></;>
-        <br>
-        <button ng-click="submit()">登录</button>
-    </div>
-    <script type="text/javascript">
-        var loginModule =angular.module('loginModule',[]);
-        loginModule.controller('UserController',function ($scope,$log) {
-            $scope.name ='login';
-            $scope.pass ='admin';
-            $scope.submit=function(){
-                alert('登录模块');
-            }
-        });
-    </script>
+<!--<div>-->
+    <!--<p>名字 : <input type="text" ng-model="name"></p>-->
+    <!--<h1>Hello {{name}}</h1>-->
+<!--</div>-->
 
 
 
@@ -42,39 +19,8 @@
 
 
 
-     <!--<input type="text" ng-model="a" >*<input type="text" ng-8+9model="b">-->
-     <!--=<span>{{a*b}}</span>-->
-
-     <!--<br>-->
-
-<!--<ul ng-init="arr=[5,99,56,66,78,8]">-->
-    <!--<li ng-repeat="start  in  arr">{{start}}</li>-->
-<!--</ul>-->
-
-     <!--<br>-->
 
 
-
-     <!--<ul ng-init="json=[g='66',h='cc']">-->
-         <!--<li ng-repeat="start  in  json">{{start}}</li>-->
-     <!--</ul>-->
-
-
-     <!--<br>-->
-
-     <!--父元素ng-app="test"-->
-     <!--<div ng-controller="zhangsan">-->
-         <!--<span>{{a}}</span>-->
-     <!--</div>-->
-
-     <!--<script>-->
-        <!--var app=angular.module('test',[]);-->
-        <!--app.controller('zhangsan',function ($scope){-->
-            <!--$scope.a=12;-->
-        <!--});-->
-     <!--</script>-->
-
-     <!--<br>-->
 
 
 
